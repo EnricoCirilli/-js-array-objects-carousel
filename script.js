@@ -34,7 +34,9 @@ const images = [
   for (let i = 0; i < images.length; i++) {
     imagesString += `
         <div class="item">
-     <img src="img/${images.image}" alt="">
+        <h1>"${images[i].title}"</h1>
+         <p> "${images[i].text}"</p>
+     <img src="img/${images[i].image}" alt="">
     </div>`;
   }
   
